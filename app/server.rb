@@ -21,12 +21,12 @@ end
 ##################################
 get '/hello-world' do
   content_type :json
-  { :Output => 'Hello World!' }.to_json
+  { :Output => 'Response from get hello-world' }.to_json
 end
 
 post '/hello-world' do
     content_type :json
-    { :Output => 'Hello World!' }.to_json
+    { :Output => 'Response from post hello-world' }.to_json
 end
 
 ##################################
